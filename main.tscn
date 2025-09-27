@@ -1,5 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://bkv0jq2882q75"]
+[gd_scene load_steps=7 format=4 uid="uid://bkv0jq2882q75"]
 
+[ext_resource type="Script" uid="uid://b4nl14bk0b67i" path="res://player.gd" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://cjcsftmwr0ly5" path="res://icon.svg" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://bptbafmlvpae8" path="res://green.jpg" id="2_0xm2m"]
 
@@ -87,13 +88,14 @@ sources/0 = SubResource("TileSetAtlasSource_h2yge")
 
 [node name="Node" type="Node"]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+[node name="Player" type="CharacterBody2D" parent="."]
 position = Vector2(213, -146)
+script = ExtResource("1_h2yge")
 
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
 texture = ExtResource("1_ig7tw")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 shape = SubResource("RectangleShape2D_ig7tw")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
