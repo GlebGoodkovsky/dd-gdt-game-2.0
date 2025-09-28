@@ -9,3 +9,8 @@ Simple Godot game designed by Gleb Goodkovsky and Nadia Sobrepena during the BCI
 ![forest](assets/godot-rock-tunnels-wallpaper.jpg)
 
 ---
+## Available on Itch.io
+
+Game link: - [Click Here!](https://nadiasobrepena.itch.io/godot-rock-tunnels)
+
+---
