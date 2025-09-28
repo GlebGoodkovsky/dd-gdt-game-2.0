@@ -6,6 +6,6 @@ Simple Godot game designed by Gleb Goodkovsky and Nadia Sobrepena during the BCI
 
 ---
 
-![forest] (assets/godot-rock-tunnels-wallpaper.jpg)
+![forest](assets/godot-rock-tunnels-wallpaper.jpg)
 
 ---
